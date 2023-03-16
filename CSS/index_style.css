@@ -1,0 +1,133 @@
+/* Head section */
+
+header {
+    background-image: linear-gradient(rgba(116, 41, 41, 0.584) , rgba(116, 41, 41, 0.584)),  url("../Images/events-heavenly-header.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    
+}
+header .head-content{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: larger;
+    transform: translate(-50%,-50%);
+    
+}
+header .head-icon{
+   align-self: center; 
+}
+header .head-icon button {
+    border: none;
+    font-size: larger;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 600;
+}
+header.aside{
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left:0;
+    
+}
+header .aside .head-list{
+    position: relative;
+    list-style-type: none;
+    height: 100%;
+    background-color: #414658;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 0;
+    overflow-x: hidden; 
+    transition: width 0.5s;
+}
+header .aside  .show{
+width: 300px;
+}
+header .aside .head-list li a{
+    padding: 20px  40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block; 
+    transition: all 0.5s;
+  
+}
+header .aside .head-list li a:hover {
+    color:#724658
+}
+header .aside .close-side{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20px ;
+    right: 20px;
+
+}
+/* Accordion section */
+.accordion{
+    width: 600px;
+    margin: auto;
+}
+.accordion .container .accordion-content .accordion-item button {
+ width: 100%;
+ border: none;
+ background-color: rgba(214, 46, 51, 0.6);
+ color: #fff;
+ font-size: 1.5em;
+
+}
+
+.accordion .container .accordion-content .accordion-item p{
+    background-color: #cccccc;
+    padding:10px ;
+    display: none;
+}
+.accordion .container .accordion-content .accordion-item .press{
+    display: block;
+}
+
+/* countDown section */
+.countDown{
+    background-image: linear-gradient(rgba(116, 41, 41, 0.584) , rgba(116, 41, 41, 0.584)), url("../Images/invitation-2508607__340.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.countDown .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.countDown .container .row .col-md-2{
+    border: #fff solid 1px;
+}
+.countDown .container .row .col-md-2 .count{
+    padding: 30px;
+}
+/* Contact */
+
+.contact .container h5 {
+    font-size: 1.5em ;
+}
+.contact .container .row .col-md-6 .item .contact-icon{
+    text-align: center;
+}
+.contact .container .row .col-md-6 .item .contact-icon li{
+width:45px;
+border: #414658 1px solid;
+padding: 20px 10px;
+margin: 5px;
+
+}
+.contact .container .row .col-md-6 .item .contact-icon li:hover{
+    background-color: rgba(214, 46, 51, 0.6) ;
+}
